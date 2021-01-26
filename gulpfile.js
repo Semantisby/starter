@@ -1,4 +1,4 @@
-let preprocessor = 'sass', // Preprocessor (sass, less, styl); 'sass' also work with the Scss syntax in blocks/ folder.
+let preprocessor = 'sass',
 		fileswatch   = 'html,htm,txt,json,md,woff2' // List of files extensions for watching & hard reload
 
 const { src, dest, parallel, series, watch } = require('gulp')
@@ -8,9 +8,6 @@ const ssi          = require('ssi')
 const webpack      = require('webpack-stream')
 const sass         = require('gulp-sass')
 const sassglob     = require('gulp-sass-glob')
-const less         = require('gulp-less')
-const lessglob     = require('gulp-less-glob')
-const styl         = require('gulp-stylus')
 const stylglob     = require("gulp-empty")
 const cleancss     = require('gulp-clean-css')
 const autoprefixer = require('gulp-autoprefixer')

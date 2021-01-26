@@ -4,3 +4,7 @@
 /**/*.DS_Store
 /**/package-lock.json
 /**/debug.log
+
+
+app/css/main.min.css
+app/js/app.min.js
